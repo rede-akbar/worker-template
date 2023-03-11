@@ -9,5 +9,4 @@ app = Celery('WORKER')
 app.config_from_object(CONFIG)
 
 
-
 app.autodiscover_tasks()
